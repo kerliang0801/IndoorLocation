@@ -9,12 +9,52 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate{
 
     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        
+        let locationBuilder = EILLocationBuilder()
+        
+        locationBuilder.setLocationName("CGHworkroom")
+        
+        locationBuilder.setLocationBoundaryPoints([
+            EILPoint(x: 0.00, y: 0.00),
+            EILPoint(x: 5.21, y: 0.00),
+            EILPoint(x: 5.21, y: 7.60),
+            EILPoint(x: 0.00, y: 7.60)])
+
+        locationBuilder.addBeacon(withIdentifier: "4bacde09e3107e737aad543c3343a615",
+                                  atBoundarySegmentIndex: 0, inDistance: 2.6, from: .leftSide) //beetroot2
+        locationBuilder.addBeacon(withIdentifier: "04e08c076be759a663a16c13a03b1a3f",
+                                  atBoundarySegmentIndex: 3, inDistance: 1.8, from: .leftSide) //lemon2
+        locationBuilder.addBeacon(withIdentifier: "47c9b564dc72a2a37b522ff06007a819",
+                                  atBoundarySegmentIndex: 3, inDistance: 2.1, from: .rightSide) //candy2
+        locationBuilder.addBeacon(withIdentifier: "16e51a654b9bc1e6e0ebd27799068801",
+                                  atBoundarySegmentIndex: 2, inDistance: 2.3, from: .leftSide) //lemon
+        locationBuilder.addBeacon(withIdentifier: "3526e3829fcb88d3a650dd45e6132620",
+                                  atBoundarySegmentIndex: 1, inDistance: 1.4, from: .leftSide) //beetroot
+        locationBuilder.addBeacon(withIdentifier: "22cc34c909bba596a42d5b4758c7ec3a",
+                                  atBoundarySegmentIndex: 1, inDistance: 4.5, from: .leftSide) //candy
+        locationBuilder.addBeacon(withIdentifier: "834ce436c0ac8310e090f5afb323ea22",
+                                  atBoundarySegmentIndex: 1, inDistance: 0.3, from: .rightSide) //coconut2
+        
+        locationBuilder.setLocationOrientation(252)
+        
+        
+        let location = locationBuilder.build()
+        
+        ESTConfig.setupAppID("cgh-map-test-ns0", andAppToken: "8aadb34122c354cff41f3c7c821fffeb")
+        let addLocationRequest = EILRequestAddLocation(location: location!)
+        addLocationRequest.sendRequest { (location, error) in
+            if error != nil {
+                NSLog("Error when saving location: \(String(describing: error))")
+            } else {
+                NSLog("Location saved successfully: \(String(describing: location?.identifier))")
+            }}
         // Override point for customization after application launch.
         return true
     }

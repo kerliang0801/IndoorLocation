@@ -8,11 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController{
 
+    
+    //let locationManager = EILIndoorLocationManager()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        //self.locationManager.delegate = self
     }
 
 

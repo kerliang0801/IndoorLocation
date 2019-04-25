@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		617E65EE06C39C3FE31EAA1E /* Pods_IndoorLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B933457E4EAE979A084F894D /* Pods_IndoorLocation.framework */; };
 		6B396D2422702C07001ECE37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B396D2322702C07001ECE37 /* AppDelegate.swift */; };
 		6B396D2622702C07001ECE37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B396D2522702C07001ECE37 /* ViewController.swift */; };
 		6B396D2922702C07001ECE37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B396D2722702C07001ECE37 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		6B396D2E22702C09001ECE37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B396D2C22702C09001ECE37 /* LaunchScreen.storyboard */; };
 		6B396D3922702C09001ECE37 /* IndoorLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B396D3822702C09001ECE37 /* IndoorLocationTests.swift */; };
 		6B396D4422702C09001ECE37 /* IndoorLocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B396D4322702C09001ECE37 /* IndoorLocationUITests.swift */; };
+		8AF83A153403E17A3937F7CE /* Pods_IndoorLocationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EE028084E6D0B8533B42C71 /* Pods_IndoorLocationUITests.framework */; };
+		F28A72F1BC409F2F5AADFC31 /* Pods_IndoorLocationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9258AEC206A63D76A23E9F4B /* Pods_IndoorLocationTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AFBDE52A82F15C370F12677 /* Pods-IndoorLocation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndoorLocation.debug.xcconfig"; path = "Target Support Files/Pods-IndoorLocation/Pods-IndoorLocation.debug.xcconfig"; sourceTree = "<group>"; };
+		2EE028084E6D0B8533B42C71 /* Pods_IndoorLocationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IndoorLocationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36A064C5BC1264C0D5F789C5 /* Pods-IndoorLocation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndoorLocation.release.xcconfig"; path = "Target Support Files/Pods-IndoorLocation/Pods-IndoorLocation.release.xcconfig"; sourceTree = "<group>"; };
 		6B396D2022702C07001ECE37 /* IndoorLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndoorLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B396D2322702C07001ECE37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B396D2522702C07001ECE37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,13 @@
 		6B396D3F22702C09001ECE37 /* IndoorLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndoorLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B396D4322702C09001ECE37 /* IndoorLocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorLocationUITests.swift; sourceTree = "<group>"; };
 		6B396D4522702C09001ECE37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BECDDE9227041710009F1E0 /* ObjCBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCBridge.h; sourceTree = "<group>"; };
+		74DD6F9D300148650D858960 /* Pods-IndoorLocationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndoorLocationTests.release.xcconfig"; path = "Target Support Files/Pods-IndoorLocationTests/Pods-IndoorLocationTests.release.xcconfig"; sourceTree = "<group>"; };
+		9258AEC206A63D76A23E9F4B /* Pods_IndoorLocationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IndoorLocationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8FF452DCB946A9A1FD98666 /* Pods-IndoorLocationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndoorLocationUITests.debug.xcconfig"; path = "Target Support Files/Pods-IndoorLocationUITests/Pods-IndoorLocationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B933457E4EAE979A084F894D /* Pods_IndoorLocation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IndoorLocation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD68CB27EABDBEFD6FD29D1 /* Pods-IndoorLocationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndoorLocationTests.debug.xcconfig"; path = "Target Support Files/Pods-IndoorLocationTests/Pods-IndoorLocationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D164FB93CB09A1C057C48887 /* Pods-IndoorLocationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndoorLocationUITests.release.xcconfig"; path = "Target Support Files/Pods-IndoorLocationUITests/Pods-IndoorLocationUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				617E65EE06C39C3FE31EAA1E /* Pods_IndoorLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F28A72F1BC409F2F5AADFC31 /* Pods_IndoorLocationTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AF83A153403E17A3937F7CE /* Pods_IndoorLocationUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +97,8 @@
 				6B396D3722702C09001ECE37 /* IndoorLocationTests */,
 				6B396D4222702C09001ECE37 /* IndoorLocationUITests */,
 				6B396D2122702C07001ECE37 /* Products */,
+				B18285BBD63785E77FDFE77B /* Pods */,
+				7000D79DC0B47DF85DEE7704 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +121,7 @@
 				6B396D2A22702C09001ECE37 /* Assets.xcassets */,
 				6B396D2C22702C09001ECE37 /* LaunchScreen.storyboard */,
 				6B396D2F22702C09001ECE37 /* Info.plist */,
+				6BECDDE9227041710009F1E0 /* ObjCBridge.h */,
 			);
 			path = IndoorLocation;
 			sourceTree = "<group>";
@@ -125,6 +144,30 @@
 			path = IndoorLocationUITests;
 			sourceTree = "<group>";
 		};
+		7000D79DC0B47DF85DEE7704 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B933457E4EAE979A084F894D /* Pods_IndoorLocation.framework */,
+				9258AEC206A63D76A23E9F4B /* Pods_IndoorLocationTests.framework */,
+				2EE028084E6D0B8533B42C71 /* Pods_IndoorLocationUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B18285BBD63785E77FDFE77B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AFBDE52A82F15C370F12677 /* Pods-IndoorLocation.debug.xcconfig */,
+				36A064C5BC1264C0D5F789C5 /* Pods-IndoorLocation.release.xcconfig */,
+				CAD68CB27EABDBEFD6FD29D1 /* Pods-IndoorLocationTests.debug.xcconfig */,
+				74DD6F9D300148650D858960 /* Pods-IndoorLocationTests.release.xcconfig */,
+				B8FF452DCB946A9A1FD98666 /* Pods-IndoorLocationUITests.debug.xcconfig */,
+				D164FB93CB09A1C057C48887 /* Pods-IndoorLocationUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B396D4822702C09001ECE37 /* Build configuration list for PBXNativeTarget "IndoorLocation" */;
 			buildPhases = (
+				77AA9FC29818DF5B45D4DBE6 /* [CP] Check Pods Manifest.lock */,
 				6B396D1C22702C07001ECE37 /* Sources */,
 				6B396D1D22702C07001ECE37 /* Frameworks */,
 				6B396D1E22702C07001ECE37 /* Resources */,
+				49C89E136E33E35F9A617F85 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B396D4B22702C09001ECE37 /* Build configuration list for PBXNativeTarget "IndoorLocationTests" */;
 			buildPhases = (
+				6C7619A7793BB37DDB557F8C /* [CP] Check Pods Manifest.lock */,
 				6B396D3022702C09001ECE37 /* Sources */,
 				6B396D3122702C09001ECE37 /* Frameworks */,
 				6B396D3222702C09001ECE37 /* Resources */,
@@ -167,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B396D4E22702C09001ECE37 /* Build configuration list for PBXNativeTarget "IndoorLocationUITests" */;
 			buildPhases = (
+				7B0367D216620E25488E0DA3 /* [CP] Check Pods Manifest.lock */,
 				6B396D3B22702C09001ECE37 /* Sources */,
 				6B396D3C22702C09001ECE37 /* Frameworks */,
 				6B396D3D22702C09001ECE37 /* Resources */,
@@ -250,6 +297,167 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49C89E136E33E35F9A617F85 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IndoorLocation/Pods-IndoorLocation-resources.sh",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/avatar.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/avatar@2x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/avatar@3x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/avatar_noarrow.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/avatar_noarrow@2x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/avatar_noarrow@3x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconBeetrootSmall.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconBeetrootSmall@2x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconBeetrootSmall@3x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconBlackSmall.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconBlackSmall@2x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconBlackSmall@3x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconBlueberrySmall.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconBlueberrySmall@2x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconBlueberrySmall@3x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconCandySmall.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconCandySmall@2x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconCandySmall@3x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconGreySmall.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconGreySmall@2x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconGreySmall@3x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconIcySmall.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconIcySmall@2x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconIcySmall@3x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconLemonSmall.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconLemonSmall@2x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconLemonSmall@3x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconMintSmall.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconMintSmall@2x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconMintSmall@3x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconTransparentSmall.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconTransparentSmall@2x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconTransparentSmall@3x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconWhiteSmall.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconWhiteSmall@2x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconWhiteSmall@3x.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/avatar.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/avatar@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/avatar@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/avatar_noarrow.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/avatar_noarrow@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/avatar_noarrow@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconBeetrootSmall.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconBeetrootSmall@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconBeetrootSmall@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconBlackSmall.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconBlackSmall@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconBlackSmall@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconBlueberrySmall.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconBlueberrySmall@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconBlueberrySmall@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconCandySmall.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconCandySmall@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconCandySmall@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconGreySmall.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconGreySmall@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconGreySmall@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconIcySmall.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconIcySmall@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconIcySmall@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconLemonSmall.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconLemonSmall@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconLemonSmall@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconMintSmall.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconMintSmall@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconMintSmall@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconTransparentSmall.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconTransparentSmall@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconTransparentSmall@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconWhiteSmall.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconWhiteSmall@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconWhiteSmall@3x.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IndoorLocation/Pods-IndoorLocation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C7619A7793BB37DDB557F8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IndoorLocationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77AA9FC29818DF5B45D4DBE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IndoorLocation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B0367D216620E25488E0DA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IndoorLocationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6B396D1C22702C07001ECE37 /* Sources */ = {
@@ -369,6 +577,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "${TARGET_NAME}/ObjCBridge.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -423,6 +632,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "${TARGET_NAME}/ObjCBridge.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -430,6 +640,7 @@
 		};
 		6B396D4922702C09001ECE37 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AFBDE52A82F15C370F12677 /* Pods-IndoorLocation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +658,7 @@
 		};
 		6B396D4A22702C09001ECE37 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36A064C5BC1264C0D5F789C5 /* Pods-IndoorLocation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +676,7 @@
 		};
 		6B396D4C22702C09001ECE37 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAD68CB27EABDBEFD6FD29D1 /* Pods-IndoorLocationTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +697,7 @@
 		};
 		6B396D4D22702C09001ECE37 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74DD6F9D300148650D858960 /* Pods-IndoorLocationTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +718,7 @@
 		};
 		6B396D4F22702C09001ECE37 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8FF452DCB946A9A1FD98666 /* Pods-IndoorLocationUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +738,7 @@
 		};
 		6B396D5022702C09001ECE37 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D164FB93CB09A1C057C48887 /* Pods-IndoorLocationUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
